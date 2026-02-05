@@ -1,37 +1,27 @@
 # 📚 Book Tracker App
 
-A simple web app to track books you've read, are reading, or want to read. Built using Python, Flask, SQLite, and Bootstrap.
-
----
+A simple web application for tracking books you’ve read, are currently reading, or want to read. Built to practice full-stack fundamentals and basic data persistence.
 
 ## 🚀 Features
+- Add, edit, and delete books
+- Track author, genre, rating, and reading status
+- Responsive UI using Bootstrap
+- Persistent storage with SQLite
 
-- Add new books with title, author, genre, rating, and reading status
-- Edit and update book details
-- Delete books with confirmation
-- Responsive UI with Bootstrap
-- Data stored in local SQLite database
-
----
-
-## 💻 Tech Stack
-
+## 🛠 Tech Stack
 - Python 3
 - Flask
-- SQLite (via SQLAlchemy)
+- SQLite (SQLAlchemy)
 - HTML/CSS (Bootstrap 5)
 
----
+## ⚙️ Setup
+1. Clone the repository  
+2. Create and activate a virtual environment  
+3. Install dependencies: `pip install -r requirements.txt`  
+4. Run the app: `python app.py`  
+5. Open `http://127.0.0.1:5000` in your browser
 
-## 📷 Screenshots
-
-> *(Optional: Add screenshots later if you want!)*
-
----
-
-## 🔧 Setup Instructions
-
-1. **Clone this repo**:
-   ```bash
-   git clone https://github.com/your-username/book-tracker-app.git
+## 🎯 Purpose
+This project was built to practice connecting a web interface to a backend service, managing CRUD operations, and working with a local database in a structured way.
+//github.com/your-username/book-tracker-app.git
    cd book-tracker-app
